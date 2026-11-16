@@ -1,6 +1,6 @@
 # Jitendra Patel — DevOps & SRE
 
-An original infrastructure-atlas portfolio built with TypeScript, Vite, and Tailwind CSS. Midnight blue, glacier, and acid yellow; bold condensed typography; a custom animated isometric server landscape; scroll parallax; opposing technology marquees; and alternating repository studies.
+An original infrastructure-atlas portfolio built with TypeScript, Vite, and Tailwind CSS. Midnight blue, glacier, and acid yellow; readable Inter text and Space Grotesk headings; a custom animated isometric server landscape; scroll parallax; opposing technology marquees; and alternating repository studies.
 
 ## Run locally
 
@@ -54,4 +54,4 @@ The build includes TypeScript validation. Assets and fonts are self-hosted, and 
 
 ## Design assets
 
-Barlow Condensed, Manrope, and IBM Plex Mono are bundled locally through their Fontsource packages, under their included open-source font licenses. Icons are from Lucide (ISC license). All diagram and canvas artwork is implemented in this source.
+Inter and Space Grotesk are bundled locally through their Fontsource packages, under their included open-source font licenses. Icons are from Lucide (ISC license). All diagram and canvas artwork is implemented in this source.

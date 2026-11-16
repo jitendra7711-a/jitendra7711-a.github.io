@@ -55,7 +55,7 @@ export function mountNetwork(canvas: HTMLCanvasElement, isPaused: () => boolean)
     }
     if (t.core) {
       const p = project(t.x,t.y,t.h+.45);
-      context.fillStyle = '#0e2942'; context.font = '8px "IBM Plex Mono",monospace'; context.textAlign = 'center';
+      context.fillStyle = '#0e2942'; context.font = '14px "Inter Variable",sans-serif'; context.textAlign = 'center';
       context.fillText('RELIABILITY',p.x,p.y);
       line([project(t.x,t.y,t.h+.33),project(t.x,t.y,t.h+.1)],'#54758b',.7);
     }
@@ -77,11 +77,6 @@ export function mountNetwork(canvas: HTMLCanvasElement, isPaused: () => boolean)
       context.fillStyle='#365e7a'; context.fillRect(p.x-2.5,p.y-2.5,5,5);
     });
     towers.forEach(drawTower);
-    // Small diagram annotation, anchored to the far node.
-    const callout = project(2,-1,1.1);
-    line([callout,{x:callout.x+35,y:callout.y-26},{x:callout.x+75,y:callout.y-26}],'#587d94',.7);
-    context.fillStyle='#34596f'; context.font='7px "IBM Plex Mono",monospace'; context.textAlign='left';
-    context.fillText(width < 450 ? 'LINK' : 'CONNECTED BY INTENT',callout.x+(width < 450 ? 18 : 40),callout.y-33);
   }
   function resize() {
     width=art.clientWidth; height=art.clientHeight;
