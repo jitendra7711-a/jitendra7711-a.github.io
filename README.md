@@ -1,6 +1,6 @@
 # Jitendra Patel — DevOps & SRE
 
-An original infrastructure-atlas portfolio built with TypeScript, Vite, and Tailwind CSS. Midnight blue, glacier, and acid yellow; readable Inter text and Space Grotesk headings; a custom animated isometric server landscape; scroll parallax; opposing technology marquees; and alternating repository studies.
+A portrait-free DevOps and SRE portfolio built with TypeScript, Vite, and Tailwind CSS. Charcoal surfaces, electric blue accents, a split introduction with an information sidebar, readable Inter and Space Grotesk typography, subtle parallax, technology marquees, and real GitHub projects.
 
 ## Run locally
 
@@ -47,11 +47,11 @@ The build includes TypeScript validation. Assets and fonts are self-hosted, and 
 ## Motion and accessibility
 
 - Honors `prefers-reduced-motion` and updates when the preference changes.
-- A visible pause control stops the marquee, canvas, SVG animation, and decorative loops.
-- The canvas renders at 25fps only while visible, unpaused, and in an active tab.
+- A visible pause control stops the marquees, SVG animation, and parallax.
+- A subtle code watermark provides parallax, with no portrait, face, or external image assets.
 - Semantic sections, skip link, keyboard focus indicators, mobile navigation with Escape support, and descriptive external links.
 - Smooth anchor navigation uses the browser's native scrolling; there is no scroll hijacking.
 
 ## Design assets
 
-Inter and Space Grotesk are bundled locally through their Fontsource packages, under their included open-source font licenses. Icons are from Lucide (ISC license). All diagram and canvas artwork is implemented in this source.
+Inter and Space Grotesk are bundled locally through their Fontsource packages, under their included open-source font licenses. Icons are from Lucide (ISC license). All project diagrams are implemented in this source.
